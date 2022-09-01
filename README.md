@@ -1,1 +1,0 @@
-# Ejercicio5-PiedraPapelTijeraV2
