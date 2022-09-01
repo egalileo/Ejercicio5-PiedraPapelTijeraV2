@@ -50,9 +50,13 @@ public class App {
                     
                     if(ganadas1 == 2){ //GANO JUGADOR 1
                         JOptionPane.showMessageDialog(null,"*** FELICIDADES. EL JUGADOR 1 HA GANADO ***");
+                        ganadas1 = 0;
+                        ganadas2 = 0;
                         break;
                     }else if(ganadas2 == 2){ //GANO JUGADOR 2    
                         JOptionPane.showMessageDialog(null,"*** FELICIDADES. EL JUGADOR 2 HA GANADO ***");
+                        ganadas1 = 0;
+                        ganadas2 = 0;
                         break;
                     }
                 }
@@ -87,9 +91,13 @@ public class App {
                     
                     if(ganadas1 == 3){ //GANO JUGADOR 1
                         JOptionPane.showMessageDialog(null,"*** FELICIDADES. EL JUGADOR 1 HA GANADO ***");
+                        ganadas1 = 0;
+                        ganadas2 = 0;
                         break;
                     }else if(ganadas2 == 3){ //GANO JUGADOR 2    
                         JOptionPane.showMessageDialog(null,"*** FELICIDADES. EL JUGADOR 2 HA GANADO ***");
+                        ganadas1 = 0;
+                        ganadas2 = 0;
                         break;
                     }
                 }
